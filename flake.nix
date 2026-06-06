@@ -20,6 +20,6 @@
         description = "AI Model Dynamic Offloader for ComfyUI";
       };
       pin = import ./pin.nix;
-      branches = false;
+      branches = true;
     };
 }
